@@ -4,7 +4,7 @@ wait.innerHTML+=".";},300);setTimeout(function(){clearInterval(dotsInterv);loadQ
 if(page=="page4"){document.getElementById("steps_progress").src="https://i.imgur.com/sfIZduh.png";document.getElementById("channel-step").remove();var element=document.getElementById("question");element.innerHTML="";document.getElementById("account-step").style.display="block";}
 if(page=="page5"){var username=document.getElementById("account-username").value;if(username.length<=3){alert("أدخل اسمك أو الأيدي بشكل صحيح");return}
 document.getElementById("account-step").remove();document.getElementById("loader").style.display='block';setTimeout(function(){document.getElementById("loader").remove();document.getElementById("steps_progress").src="https://i.imgur.com/F90A0F2.png";document.getElementById("final-step").style.display='block';},6000);}
-if(page=="page6"){window.location='https://cpbild.co/cc084a0';}}
+if(page=="page6"){window.location='https://smrturl.co/bf4f2d5';}}
 function loadQuestions(){document.getElementById("mainQuest").innerHTML="";document.getElementsByClassName("main-question")[0].remove();document.getElementById("progbars").style.textAlign="center";document.getElementById("progbars").style.display='block';populate();}
 function Question(text,choices){this.text=text;this.choices=choices;}
 var questions=[new Question("هل انت مستعد للعمل لمدة 6 ساعات يوميا ؟",["نعم","لا"]),new Question("ما هو مستواك في التعليمي ؟",["جامعي","استطيع الكتابة و القراءة"]),new Question("اختر احدى المجالات التالية التي تناسب هوايتك او تخصصك  ؟",[" تسويق الالكتروني ","كتابة مقالات","  مراقب كاميرات مراقبة"," خدمة العملاء "])];function Quiz(questions){this.questions=questions;this.questionIndex=0;}
