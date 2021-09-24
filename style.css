@@ -1,0 +1,348 @@
+#q2,
+        #q3,
+        #q4,
+        #content2,
+        #content3,
+        #result1,
+        #result2,
+        #result3,
+        #comment1,
+        #comment2,
+        #comment3,
+        #comment4,
+        #comment5,
+        #comment6 {
+            display: none;
+        }
+        body {
+            text-align: center;
+            background-color: white;
+            font-family: 'Lato', sans-serif;
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+            background: #0e76a8;
+        }
+        .header_container {
+            background-color: #003b64;
+        }
+        .footer {
+            font-size: 10px;
+            margin-top: 100px;
+        }
+        .header {
+            background: #003b64 no-repeat 10px center;
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0px;
+        }
+        .result {
+            margin: 0;
+            font-weight: bold;
+            padding: 5px 0 5px 25px;
+        }
+        hr {
+            border: 1px solid #fff;
+            width: 75%;
+            color: #fff;
+            margin: 0 auto;
+            padding: 0;
+        }
+        .header span {
+            color: #d7d7d7;
+        }
+        .content {
+            padding: 10px 10px;
+            max-width: 850px;
+            margin: 0 auto;
+        }
+        .dt {
+            font-size: 12px;
+            text-align: right;
+        }
+        .main-content {
+            padding: 5px;
+            background-color: white;
+            border: 3px solid silver;
+            -webkit-border-radius: 10px;
+            -moz-border-radius: 10px;
+            border-radius: 10px;
+            -webkit-box-shadow: -5px 8px 10px 5px rgba(0, 0, 0, 0.5);
+            -moz-box-shadow: -5px 8px 10px 5px rgba(0, 0, 0, 0.5);
+            box-shadow: -5px 8px 10px 5px rgba(0, 0, 0, 0.5);
+        }
+        .main-content h1 {
+            font-weight: 400;
+            text-align: center;
+            margin: 0;
+        }
+        .main-content h2 {
+            font-size: 1.5em;
+            font-weight: 700;
+            font-weight: normal;
+        }
+        .main-content p {
+            font-size: 14px
+        }
+        .main-content span {
+            color: #F00;
+        }
+        .question {
+            max-width: 400px;
+            margin: 0 auto;
+        }
+        p.question {
+            font-size: 18px;
+        }
+        hr {
+            border: 1px solid #e62b1e!important;
+        }
+        .button {
+            background: #e74635;
+            background: -moz-linear-gradient(top, #e74635 0%, #e62b1e 100%);
+            background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #2e74635), color-stop(100%, #e62b1e));
+            background: -webkit-linear-gradient(top, #e74635 0%, #e62b1e 100%);
+            background: -o-linear-gradient(top, #e74635 0%, #e62b1e 100%);
+            background: -ms-linear-gradient(top, #e74635 0%, #e62b1e 100%);
+            background: linear-gradient(to bottom, #e74635 0%, #e62b1e 100%);
+            filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#e74635', endColorstr='#e62b1e', GradientType=0);
+            text-align: center;
+            padding: 8px 0;
+            margin: 5px auto;
+            cursor: pointer;
+            max-width: 200px;
+            font-size: 15px;
+            color: #fff;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            border-radius: 5px;
+        }
+        .loading {
+            text-align: center;
+        }
+        p {
+            font-size: 16px!important;
+        }
+        .button2 {
+            background: -webkit-linear-gradient(#127fd2, #33a7e8);
+            background: -o-linear-gradient(#127fd2, #33a7e8);
+            background: -moz-linear-gradient(#127fd2, #33a7e8);
+            background: linear-gradient(#127fd2, #33a7e8);
+            text-align: center;
+            color: #fff;
+            font-size: 20px;
+            padding: 10px;
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+        }
+        a.claim {
+            color: #fff;
+            text-decoration: none;
+        }
+        .profile {
+            float: left;
+            width: 60px;
+            margin-right: 10px;
+            cursor: pointer;
+        }
+        .comments {
+            background-color: #eeeff4;
+            border-bottom: 2px solid #fff;
+            padding: 10px;
+        }
+        .profile img,
+        .comment-content img {} .comment-content {
+            cursor: pointer;
+            margin-right: 10px;
+        }
+        .comment-content p {
+            padding-left: 70px;
+        }
+        .name {
+            font-weight: bold;
+            color: #3b5998;
+            margin: 0;
+            cursor: pointer;
+        }
+        .clr {
+            clear: both;
+        }
+        .comment-status {
+            font-size: 11px;
+            cursor: pointer;
+        }
+        .comment-status span {
+            color: #3b5998;
+        }
+        section.commentsfb .title {
+            display: inline-block;
+            margin-top: 20px;
+            margin-bottom: 26px
+        }
+        section.commentsfb .comment {
+            margin-bottom: 20px
+        }
+        section.commentsfb .comment .pic {
+            float: left;
+            display: table-cell
+        }
+        section.commentsfb .comment .contentcoment {
+            display: table-cell;
+            padding-left: 10px
+        }
+        section.commentsfb .comment .content {
+            margin-top: 3px;
+            margin-bottom: 7px
+        }
+        section.commentsfb .comment .date {
+            color: #9298a4;
+            font-size: 12px
+        }
+        section.commentsfb .comment .date span {
+            color: #8391b1
+        }
+        .fbcoms2.container {
+            font-family: Tahoma, Verdana, sans-serif;
+            background-color: #fff;
+            border: 1px solid #c3c4ca;
+            margin-top: 10px;
+            border-radius: 5px;
+            overflow: hidden;
+            padding: 0;
+            font-size: 12px;
+            text-align: left;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box
+        }
+        .comments {
+            font-weight: 700;
+            text-align: center;
+            padding: 0 5px 10px
+        }
+        .totlikes {
+            margin-top: 3px;
+            background-color: #eeeff4;
+            padding: 5px 10px;
+            background-repeat: no-repeat;
+            background-position: 5px center
+        }
+        .fbblue {
+            color: #3c5a96
+        }
+        .buttons {
+            padding-bottom: 0;
+            margin-bottom: 7px;
+            margin-top: 7px;
+            padding-left: 10px;
+            font-family: Arial, sans-serif;
+            color: #7d7d7f
+        }
+        .buttons span {
+            cursor: pointer
+        }
+        .buttons span:hover {
+            text-decoration: underline
+        }
+        .viewmore {
+            margin-top: 3px;
+            background-color: #eeeff4;
+            padding: 5px 10px;
+            background-position: 5px center;
+            background-repeat: no-repeat;
+            overflow: hidden
+        }
+        .left {
+            cursor: pointer;
+            float: left;
+            color: #3c5a96
+        }
+        .left:hover {
+            text-decoration: underline
+        }
+        .right {
+            color: #7d7d7f;
+            float: right
+        }
+        .item {
+            position: relative;
+            margin-top: 3px;
+            background-color: #eeeff4;
+            padding: 5px 5px 5px 65px;
+            min-height: 60px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            width: 100%!important
+        }
+        .item .profileimg {
+            position: absolute;
+            top: 5px;
+            left: 10px
+        }
+        .comtxt {
+            line-height: 16px;
+            margin-top: 0
+        }
+        .name {
+            color: #3c5a96;
+            font-weight: 700
+        }
+        .ago {
+            color: #86878c;
+            font-size: .95em
+        }
+        .fblike {
+            color: #3c5a96;
+            font-size: .95em;
+            cursor: pointer
+        }
+        .fblike:hover {
+            text-decoration: underline
+        }
+        .combot {
+            padding-top: 5px
+        }
+        .clickhere {
+            font-weight: 700;
+            padding: 30px 10px 5px;
+            line-height: 18px
+        }
+        .likes {
+            color: #3c5a96;
+            font-size: .95em;
+            cursor: pointer
+        }
+        .button {
+            font-size: 24px;
+        }
+        .question {
+            font-size: 26px!important;
+        }
+        .fbimg {
+            background-color: #fff;
+            border-radius: 2px;
+            -moz-border-radius: 2px;
+            -webkit-border-radius: 2px;
+            max-width: 210px;
+            width: 100%;
+            padding: 3px;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            box-sizing: border-box;
+            border: 1px solid gray;
+            margin: 10px 0 5px
+        }
+        .hidden {
+            display: none;
+            opacity: 0
+        }
+        .hidden .comtxt,
+        .hidden .combot,
+        .comments {
+            display: none
+        }
+        .result {
+            text-align: left!important;
+        }
